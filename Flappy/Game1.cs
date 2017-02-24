@@ -152,7 +152,7 @@ namespace Flappy
                         timer--;
                         if (timer < 0)
                         {
-                            timer = 121;
+                            timer = 120;
                             var pipe = new Pipes(new Rectangle(560, 0, 32, random.Next(0, 500)), new Rectangle(560, 600 - random.Next(0, cos), 32, 700));
                             rury.Add(pipe);
                         }
